@@ -1,0 +1,151 @@
+/* Reset và kiểu chung */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    display: flex;
+    min-height: calc(100vh - 60px); /* Điều chỉnh dựa trên chiều cao header và footer */
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* Main Content */
+.main-content {
+    margin-top: 4rem;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.main-content h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.main-content h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+/* Form Container */
+.form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.form-container input,
+.form-container select {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.form-container input[type="file"] {
+    padding: 3px;
+}
+
+.form-container button {
+    padding: 10px 20px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.form-container button:hover {
+    background: #2980b9;
+}
+
+.form-container a {
+    padding: 10px 20px;
+    color: #3498db;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+}
+
+.preview-image {
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Bảng */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #2c3e50;
+    color: white;
+    font-weight: 600;
+}
+
+td {
+    font-size: 14px;
+    color: #2c3e50;
+}
+
+td img {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 5px;
+}
+
+td a {
+    margin-right: 10px;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+td a:hover {
+    text-decoration: underline;
+    color: #2980b9;
+}
+
