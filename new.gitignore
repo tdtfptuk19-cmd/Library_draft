@@ -1,0 +1,15 @@
+# Bỏ qua thư mục build và dist của NetBeans
+build/
+dist/
+
+# Bỏ qua cấu hình cá nhân của NetBeans
+nbproject/private/
+
+# Bỏ qua các file đã biên dịch
+*.class
+*.war
+*.ear
+
+# Bỏ qua thư mục log (nếu có)
+logs/
+*.log

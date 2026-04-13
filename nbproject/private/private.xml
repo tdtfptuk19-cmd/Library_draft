@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/1_ITA301/Project_ITA301/web/login.jsp</file>
+            <file>file:/D:/1_ITA301/Project_ITA301/web/viewdetail.jsp</file>
+            <file>file:/D:/1_ITA301/Project_ITA301/src/java/dal/DBContext.java</file>
+            <file>file:/D:/1_ITA301/Project_ITA301/web/META-INF/context.xml</file>
+            <file>file:/D:/1_ITA301/Project_ITA301/src/java/RBAC/BaseRBACAccessControl.java</file>
+            <file>file:/D:/1_ITA301/Project_ITA301/src/java/dal/BookDAO.java</file>
+            <file>file:/D:/1_ITA301/Project_ITA301/src/java/Filter/HomeFilter.java</file>
+            <file>file:/D:/1_ITA301/Project_ITA301/src/java/model/Book.java</file>
+        </group>
+    </open-files>
+</project-private>
